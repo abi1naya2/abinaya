@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="createPara()">Add Paragraph</button>
+
+<script>
+function createPara() {
+    var p = document.createElement("p");
+    p.innerHTML = "This paragraph is created using DOM";
+    document.body.appendChild(p);
+}
+</script>
+
+</body>
+</html>
